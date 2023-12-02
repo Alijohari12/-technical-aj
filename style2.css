@@ -1,0 +1,9 @@
+  .faq-part {
+    padding: 2rem 0 5rem 0;
+    background-color: #f8f8fd;
+  }
+
+   .why-box:hover{
+    transform: translateY(-20px);
+
+   }

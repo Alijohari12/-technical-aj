@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ-TECH</title>
+    <link rel="icon" type=" " href="https://www.ajtech.in/assets/img/ajtech_logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        background: rgba(0, 0, 0, 0.7) 
+    }
+    a{
+        text-decoration: none   ;
+    }
+
+    .login {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        padding: 15px 10px;
+        background-color: rgb(44, 41, 41);
+        margin-bottom: 20px;
+        border: none;
+        outline: none;
+        color: white;
+    }
+    ::placeholder{
+        color: rgb(101, 101, 101);
+    }
+
+    .form {
+        background-color: black;
+        color: white;
+        padding: 2rem;
+        animation: animate 3s;
+    }
+    .forget{
+        display: flex;
+        justify-content: space-between;
+    }
+    .forget p a{
+        color:#6674cc;
+text-decoration: none;
+    }
+    #button{
+        width: 320px;
+        background-color: #6674cc;
+        color: white;
+        font-family:cursive;
+        font-size: 16px;
+    }
+    label{
+        margin-top: 10px;
+        font-family:cursive;
+    }
+    .fa-xmark{
+        font-size: 1.4rem;
+        color: white;
+        float: right;
+        position:relative;
+        bottom: 20px;
+        left: 20px;
+    }
+    .form h2{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-bottom: 20px;
+    }
+@keyframes animate {
+    0%{
+        transform: perspective(400px) scaleZ(2) translateZ(-100px);
+    }
+}
+</style>
+
+<body>
+    <div class="main">
+        <div class="login">
+            
+            <div class="form">
+               <a href="index.html"> <i class="fa-solid fa-xmark"></i></a>
+                <h2>SIGN UP TO AJ-TECH!</h2>
+                <div class="inputs">
+                    <label for="">What's Your name?</label>
+                    <input type="text" placeholder="Name" required>
+                    <label for="">What's your email?</label>
+                    <input type="email" placeholder="Email" required>
+                    <label for="">Your Password?</label>
+                    <input type="password" placeholder="Password" required>
+                    <label for="">Phone Number</label>
+                    <input type="tel" placeholder="+92xxxxxxxxx" required>
+                   <a href=""><input type="submit" name="" value="start your learning journey" id="button"></a> 
+                    <div class="forget">
+                        <p><a href="">Sign in with your account</a></p>
+                        <p><a href="">Forget your password?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

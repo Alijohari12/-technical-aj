@@ -1,0 +1,688 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+  
+
+.pay {
+    padding: 2rem;
+}
+
+.aj-logo {
+    display: flex;
+    align-items: center;
+    padding: 3% 16%;
+}
+
+.aj-logo img {
+    width: 70px;
+    box-shadow: 3px 3px 10px rgb(170, 168, 168);
+    margin-right: 20px;
+}
+
+.aj-logo h2 {
+    color: darkblue;
+}
+
+.pay-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pay-left {
+    width: 35%;
+}
+
+.pay-right {
+    box-shadow: 3px 3px 100px silver;
+    padding: 1rem 2rem;
+}
+
+.pay-right h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0d2366;
+}
+
+.pay-left img {
+    width: 100%;
+
+}
+
+.para1 {
+    font-weight: 600;
+    color: #0d2366;
+    padding: 3px 2px 15px 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para2 {
+    /* margin-left: 6%; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+
+}
+
+.pay-left ul li {
+    list-style-type: disc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+
+.para3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.pay-left h2 {
+    font-size: 2rem;
+    color: #0d2366;
+}
+
+.blue-shade {
+    margin: 2rem 0;
+    width: 30px;
+    height: 7px;
+    background-color: #2173ec;
+}
+
+.payment-inputs input {
+    display: flex;
+    width: 300px;
+    padding: 10px 0;
+    border: 1px solid rgb(207, 204, 204);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    outline: 2ox solid #2173ec;
+}
+
+::placeholder {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.country {
+    font-weight: 700;
+    font-size: 2rem
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pay-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.visa img {
+    width: 100px;
+}
+
+.buton button {
+    background-color: #2173ec;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem 0 1rem 0;
+}
+
+button a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.trems-condition {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 60%;
+}
+
+.tc h4 {
+    color: #0d2366;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cont-1 {
+    display: flex;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.cont-1 i {
+    margin-right: 20px;
+    color: #2173ec;
+}
+
+.cont-1 a {
+    color: black;
+}
+
+.c-padding {
+    padding: 15px;
+}
+
+.trems p {
+    padding: 5px 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+    .para1 {
+        font-size: 14px;
+    }
+
+    .para2 {
+        font-size: 12px;
+    }
+}
+
+.pay-left ul li {
+    font-size: 14px;
+}
+
+/* notes */
+.notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+
+
+.notes p {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20%;
+    margin-bottom: 5%;
+}
+
+#n-button {
+    width: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+#n-login a {
+    color: #6674CC;
+    padding: 15px 20px;
+    border: 3px solid #6674CC;
+border-radius: 10px;
+
+}
+
+/* course */
+.dcif {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+.course-icons {
+    display: flex;
+    margin: 1rem;
+}
+
+.course-icons p {
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course-icons i {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#c-headings {
+    color: white;
+}
+
+#course-para {
+    color: white;
+    font-size: 1.6rem;
+}
+
+#c-button {
+    background-color: #0d2366;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* why */
+.why-aj {
+    padding: 2rem;
+    text-align: center;
+}
+
+.why-aj h2 {
+    color: #6674CC;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.why-aj-para {
+    font-size: 1.5rem;
+    padding: 2% 0;
+}
+
+.why-main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.why-box {
+    width: 300px;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 10px black;
+    padding: 2rem;
+    margin-top: 2rem;
+    transition: 0.3s ease-in-out;
+}
+
+.wb1 {
+    border-bottom: 5px solid red;
+
+}
+
+.wb2 {
+    border-bottom: 5px solid rgb(0, 255, 157);
+
+}
+
+.wb3 {
+    border-bottom: 5px solid rgb(22, 180, 224);
+}
+
+.wb1 i {
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgb(246, 200, 110);
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(224, 156, 22);
+    margin: 5%;
+}
+
+.wb2 i {
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgb(110, 246, 158);
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(22, 224, 25);
+    margin: 5%;
+}
+
+.wb3 i {
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgb(110, 235, 246);
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(22, 180, 224);
+    margin: 5%;
+}
+
+.why-box p {
+    font-size: 1.1rem;
+}
+
+.why-box h3 {
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+}
+
+/* lEARN */
+.learn {
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.learn-part1 h2{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+.learn-part1-tick{
+    display: flex;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    padding: 2%;
+}
+.learn-part1-tick p{
+    margin-left: 10px;
+}
+.learn-part1-tick i{
+    font-size: 1.8rem;
+    color: green;
+}
+.learn-part2 {
+    display: flex;
+    width: 100%;
+}
+
+.learn-part2-1 {
+    width: 50%;
+}.learn-part2-1 i{
+    font-size: 2rem;
+    color: #6674CC;
+}
+.learn-part2-1 h3{
+    padding: 5% 0;
+    font-size: 1.5rem;
+}
+.learn-part2-1 p{
+    font-size: 1.16rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.live-para{
+    padding-bottom: 4%;
+    font-weight: 500;
+}
+.color-learn-para{
+    color: #6674CC;
+}
+/* profile */
+.mp{
+    
+     
+    text-align: center;
+}
+.profile img{
+border-radius: 50%;
+width: 250px;
+}
+.main-profile{
+    background-color: #f8f8fd;
+    padding: 5% 0;
+}
+.profile p{
+    color: #6674CC;
+    padding: 1%;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.profilen h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.profile-cont{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.profile-cont img{
+    width: 60px;
+}
+.profile-img-cont{
+    margin-top: 1rem;
+}
+/* certificate */
+.certificate-part1{
+    width: 50%;
+}
+.main-certificate{
+    padding: 5rem;
+
+}
+.main-certificate h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.certificate{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ 
+.certificate-part2 img{
+     width: 400px;
+}
+.certifiacte-icon{
+    display: flex;
+     
+}
+.certificate button{
+    width: 150px;
+    margin: 20px;
+}
+.certifiacte-icon i{
+    font-size: 2rem;
+    color: #6674CC;
+    padding: 3%;
+
+}
+.certifiacte-icon p{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3% 0;
+}
+.cer-para{
+    padding: 0 4%;
+    font-size: 1.3rem;
+}
+/* FAQ */
+.faq {
+    padding: 0 8%;
+    background-color: #f8f8fd;
+}
+
+.faq h1 {
+    text-align: center;
+
+}
+
+.faq  button {
+    border: none;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+}
+
+.main-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    padding: 2rem;
+    margin-top: 1rem;
+    transition: 1s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main-button i {
+    font-size: 2rem;
+}
+
+.button-para p{
+    display: none;
+    font-size: 1.3rem;
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid black;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.main-button:hover+.button-para p {
+    display: block;
+    margin-top: -3px;
+
+}
+
+.main-button:hover {
+    box-shadow: none;
+    border-bottom: none;
+}
+@media screen and (max-width: 910px) {
+.learn{
+    flex-direction: column;
+}
+.learn-part2 h3{
+    font-size: 1.2rem;
+
+}
+.certificate-part2 img{
+    width: 350px;
+}
+.main-certificate{
+    padding: 3rem;
+}
+
+@media screen and (max-width: 810px) {
+    .pay-container {
+        flex-direction: column;
+    }
+
+    .pay-left {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .aj-logo {
+        padding: 2% auto;
+    }
+
+    .pay-right {
+        width: 100%;
+    }
+
+    .notes p {
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 20% 2% 0% 2%;
+    }
+
+    .notes {
+        margin-bottom: 12%;
+    }
+    .Course-banner {
+        background-color: #0d2366;
+    }
+    
+    .certificate{
+        flex-direction: column;
+    }
+    .certificate-part1{
+        width: 100%;
+    }
+    .certificate-part2 img{
+        width: 360px;
+    }
+    .main-button h2{
+        font-size: 1rem;
+        
+        font-weight: 700;
+    }
+    .button-para p{
+        font-size: 1rem;
+        font-family: sans-serif;
+    }
+    
+}
+
+
+ 
+ 
+@media screen and (max-width: 650px) {
+    .aj-logo {
+        padding: 3;
+    }
+
+    .trems-condition {
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .notes {
+        margin-bottom: 20%;
+    }
+.learn-part2{
+    flex-direction: column;
+    
+}
+.learn-part2-1{
+    width: 100%;
+    margin-top: 20px;
+}
+.learn{
+    padding: 3rem 2rem;
+}
+.main-certificate{
+    padding: 2rem;
+}
+.main-certificate h2{
+    font-size: 1.5rem;
+}
+.certifiacte-icon p{
+    font-size: 1.3rem;
+}
+.cer-para{
+    font-size: 1.1rem;
+}
+.certificate-part2 img{
+    width: 340px;
+}
+.main-button{
+    padding: 1rem;
+}
+.button-para p{
+ font-size: 1rem;   
+}
+}
+}
+
+@media screen and (max-width: 410px) {
+    .pay-left h2 {
+        font-size: 1.5rem;
+    }
+
+    /* .pay-left img{
+        width: 310px;
+        height: 190px;
+    } */
+    .aj-logo {
+        padding: 3% 2%;
+    }
+
+    .notes {
+        margin-bottom: 50%;
+    }
+
+    #c-headings {
+        font-size: 1.5rem;
+    }
+
+    #course-para {
+        font-size: 1.4rem;
+    }
+    nav{
+        padding: 0 30px;
+    }
+    
+}
